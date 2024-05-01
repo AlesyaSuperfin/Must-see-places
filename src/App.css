@@ -24,6 +24,7 @@ body {
 h1 {
   font-size: 60px;
   letter-spacing: -2px;
+  line-height: 100%;
 }
 
 img {
@@ -56,4 +57,27 @@ button:hover {
 
 .resultText {
   color: #ff3460;
+}
+
+@media all and (max-width: 800px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    width: 90%;
+    padding: 20px;
+    margin-top: auto;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+  
+  .slider {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
 }
