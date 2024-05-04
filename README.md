@@ -5,7 +5,7 @@ Link: https://alesya-superfin-must-see-places.netlify.app
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/To-do-list/blob/main/src/toDoList.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/Must-see-places/blob/main/src/MustSeePlaces.jpg)
 
 A simple, beautiful, and functional application based on React:
 
