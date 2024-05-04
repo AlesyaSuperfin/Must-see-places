@@ -1,18 +1,18 @@
-import imageOne from './1.jpg';
-import imageTwo from './2.jpg';
-import imageThree from './3.jpg';
-import imageFour from './4.jpg';
-import imageFive from './5.jpg';
-import imageSix from './6.jpg';
-import imageSeven from './7.jpg';
-import imageEight from './8.jpg';
-import imageNine from './9.jpg';
-import imageTen from './10.jpg';
-import imageEleven from './11.jpg';
-import imageTwelve from './12.jpg';
-import imageThirteen from './13.jpg';
-import imageForteen from './14.jpg';
-import imageFifteen from './15.jpg';
+import imageOne from './images/1.jpg';
+import imageTwo from './images/1.jpg';
+import imageThree from './images/1.jpg';
+import imageFour from './images/1.jpg';
+import imageFive from './images/1.jpg';
+import imageSix from './images/1.jpg';
+import imageSeven from './images/1.jpg';
+import imageEight from './images/1.jpg';
+import imageNine from './images/1.jpg';
+import imageTen from './images/1.jpg';
+import imageEleven from './images/1.jpg';
+import imageTwelve from './images/1.jpg';
+import imageThirteen from './images/1.jpg';
+import imageForteen from './images/1.jpg';
+import imageFifteen from './images/1.jpg';
 
 export const data = [
 

@@ -48,6 +48,7 @@ function App() {
   const currentElement = places.length > 0 ? places[element] : null;
 
   return (
+    <div>
     <div className='container'>
 
     <div className="header">
@@ -57,10 +58,9 @@ function App() {
       <button onClick={() => DeleteAll()}>I've already explored all of them!</button>
       <h2 className='resultText'>You've explored {15 -places.length} of 15 the most beautiful places in the world!</h2>
       <h3>{result}</h3>
-    </div>
+  </div>
 
-
-          <div className='slider'>
+        <div className='slider'>
         {currentElement && (
           <div>
           <img src={currentElement.image} alt="place" width="100%"/>
@@ -78,8 +78,13 @@ function App() {
             <button onClick={nextElement}>Next</button>
           </div>
         )}
-          </div>
-      </div>
+        </div>
+      </div> 
+
+    <footer>
+    <p className='footerText'>Developed by <a href='https://alesya-superfin-web-developer.glitch.me/' target='blank'>Alesya Superfin</a> </p>
+    </footer>
+    </div>
   )
 }
 

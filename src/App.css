@@ -59,6 +59,16 @@ button:hover {
   color: #ff3460;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerText, a {
+  color: gray;
+  font-size: 14px;
+}
+
 @media all and (max-width: 800px) {
 
   .container {
